@@ -1,1 +1,20 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Varibale"; /* основной шрифт текста */
+  --accent-font: "PressStart2P"; /* шрифт заголовка и кнопок */
+  --main-font-weight: 400; /* вес шрифта основного текста */
+  --headers-font-weight: 700; /* вес шрифта заголовков карточек */
+  --themes-background: #d3d3d3; /* цвет фона */
+  --themes-main-color: #000; /* основной цвет шрифтов */
+  --themes-gradient-overlay-color-start: #e7e7e7; /* цвет для создания верхнего слоя градиента в бэкграунде */
+  --themes-gradient-overlay-color-end: #1a1a1a; /* цвет для создания верхнего слоя градиента в бэкграунде */
+  --themes-content-background: #fff; /* цвет фона заголовка и карточек */
+  --themes-text-stroke-color: #fff; /* цвет обводки текста */
+  --content-section-width: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem); /* ширина секций с контентом */
+}
+
+@media (width <= 375px) {
+  :root {
+    --content-section-width: 100vw;
+  }
+}
