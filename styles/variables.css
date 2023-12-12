@@ -10,6 +10,9 @@
   --themes-gradient-overlay-color-end: #1a1a1a; /* цвет для создания верхнего слоя градиента в бэкграунде */
   --themes-content-background: #fff; /* цвет фона заголовка и карточек */
   --themes-text-stroke-color: #fff; /* цвет обводки текста */
+  --themes-btn-text-color: #fff; /* цвет текста кнопки */
+  --themes-heart-contour-color: #000; /* цвет контура иконки сердца */
+  --themes-heart-filling-color: #FF0000; /* цвет заливки иконки сердца */
   --content-section-width: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem); /* ширина секций с контентом */
 }
 

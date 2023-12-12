@@ -22,3 +22,23 @@
     inset-inline-start: -16px;
   }
 }
+
+@keyframes liked {
+  from {
+    scale: 1;
+  }
+
+  to {
+    scale: 1.5;
+  }
+}
+
+@keyframes sparks {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }  
+}
