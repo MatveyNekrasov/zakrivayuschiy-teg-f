@@ -33,7 +33,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  :root {
     --main-font-weight: 465; /* вес шрифта основного текста */
     --headers-font-weight: 785; /* вес шрифта заголовков карточек */
     --themes-background: #000; /* цвет фона */
