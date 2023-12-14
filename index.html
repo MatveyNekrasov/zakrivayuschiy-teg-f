@@ -593,7 +593,7 @@
         ><span class="button__text">Сохранить на&nbsp;память</span>
       </button>
       <dialog class="save-dialog" id="save-dialog">
-        <form action="dialog" class="save-dialog__form">
+        <form method="dialog" class="save-dialog__form" onsubmit="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 39 39"
@@ -604,7 +604,7 @@
           <p class="save-dialog__text">Вставьте дискету, чтобы продолжить</p>
           <button
             class="save-dialog__button button"
-            type="submit"
+            type="button"
             onclick="window['save-dialog'].close();"
           >
             <span class="button__text">ок</span>

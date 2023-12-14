@@ -12,7 +12,7 @@
   --themes-gradient-overlay-color-start: #007f0c; /* цвет для создания верхнего слоя градиента в бэкграунде */
   --themes-gradient-overlay-color-end: #004306; /* цвет для создания верхнего слоя градиента в бэкграунде */
   --themes-content-background: #000; /* цвет фона заголовка и карточек */
-  --themes-text-stroke-color: #00cc14; /* цвет обводки текста */
+  --themes-text-stroke-color: #000; /* цвет обводки текста */
   --themes-btn-text-color: #00cc14; /* цвет текста кнопки */
   --themes-heart-contour-color: #00cc14; /* цвет контура иконки сердца */
   --themes-heart-filling-color: #FF0000; /* цвет заливки иконки сердца */
@@ -41,7 +41,7 @@
     --themes-gradient-overlay-color-start: #007f0c; /* цвет для создания верхнего слоя градиента в бэкграунде */
     --themes-gradient-overlay-color-end: #004306; /* цвет для создания верхнего слоя градиента в бэкграунде */
     --themes-content-background: #000; /* цвет фона заголовка и карточек */
-    --themes-text-stroke-color: #00cc14; /* цвет обводки текста */
+    --themes-text-stroke-color: #000; /* цвет обводки текста */
     --themes-btn-text-color: #00cc14; /* цвет текста кнопки */
     --themes-heart-contour-color: #00cc14; /* цвет контура иконки сердца */
     --themes-heart-filling-color: #FF0000; /* цвет заливки иконки сердца */
